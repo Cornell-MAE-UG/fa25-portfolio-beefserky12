@@ -24,3 +24,10 @@ For the Kineon MOVE+ 3.0 product launch, a consumer technology solution speciali
     * Operational mechanism animations (e.g., exploded views).
     * Detailed, controlled hero shots.
 * **Delivery:** Delivered all assets (e.g., PNG sequences, ProRes video) in **optimized formats** suitable for seamless integration across diverse digital marketing and campaign platforms.
+
+
+![Pic 1]({{ "/assets/images/image (9)" | relative_url }}){: class="profile-image"}
+
+![Pic 2]({{ "/assets/images/MOVERENDERFINAL" | relative_url }}){: class="profile-image"}
+
+![Pic 3]({{ "/assets/images/straprender4png(1)" | relative_url }}){: class="profile-image"}
