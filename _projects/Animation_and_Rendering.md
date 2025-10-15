@@ -26,8 +26,8 @@ For the Kineon MOVE+ 3.0 product launch, a consumer technology solution speciali
 * **Delivery:** Delivered all assets (e.g., PNG sequences, ProRes video) in **optimized formats** suitable for seamless integration across diverse digital marketing and campaign platforms.
 
 
-![Pic 1]({{ "/assets/images/image (9).png" | relative_url }}){: class="project-image"}
+![Pic 1]({{ "/assets/images/image (9).png" | relative_url }}){: class="inline-image"}
 
-![Pic 2]({{ "/assets/images/MOVERENDERFINAL.png" | relative_url }}){: class="project-image"}
+![Pic 2]({{ "/assets/images/MOVERENDERFINAL.png" | relative_url }}){: class="inline-image"}
 
-![Pic 3]({{ "/assets/images/straprender4png (1).png" | relative_url }}){: class="project-image"}
+![Pic 3]({{ "/assets/images/straprender4png (1).png" | relative_url }}){: class="inline-image"}
