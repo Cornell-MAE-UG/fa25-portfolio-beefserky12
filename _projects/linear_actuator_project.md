@@ -2,7 +2,6 @@
 layout: project
 title: Linear Actuator Project
 description: Given a 150cm x 50cm design space, I was tasked with using a linear actuator to lift the maximum possible weight the highest possible height.
-technologies: 
 permalink: /projects/linear_actuator_project/
 image: /assets/images/Image.jpeg
 ---
