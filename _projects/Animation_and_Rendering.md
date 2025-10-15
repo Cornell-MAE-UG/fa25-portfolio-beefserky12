@@ -9,7 +9,8 @@ image: /assets/images/MovePlus_2b_NB (3).png
 
 ## Kineon MOVE+ 3.0 Product Launch
 
-For the Kineon MOVE+ 3.0 product launch, a consumer technology solution specializing in **photobiomodulation (PBM) therapy** via wearable light-emitting diodes (LEDs), I executed the entire pipeline for marketing visuals.
+For the Kineon MOVE+ 3.0 product launch, a consumer technology solution specializing in **photobiomodulation (PBM) therapy** via wearable LEDs and Infrared emitters, I executed the entire pipeline for marketing visuals.
+
 ---
 
 ### **CGI Production and Pipeline Execution**
