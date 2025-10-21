@@ -8,7 +8,7 @@ image: /assets/images/pic 123.png
 
 # Cornell Electric Vehicles 
 
-
+** This project was part of Cornell Electric Vehicle's efforts towards winning the Shell Eco Marathon Off-Track Award for Carbon Footprint Reduction **
 
 
 ***
