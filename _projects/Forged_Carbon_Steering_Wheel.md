@@ -1,9 +1,9 @@
 ---
 layout: project
-title: Kineon Product Renderings
-description: I produced numerous renderings and animations for Kineon's MOVE+ 3.0 Red Light Therapy device.
+title: Forged Carbon Fibre Steering Wheel
+description: I designed, evaluated and manufactured a forged carbon steering wheel.
 permalink: /projects/Forged_Carbon_Steering_Wheel/
-image: /assets/images/MovePlus_2b_NB (3).png
+image: /assets/images/pic 123).png
 ---
 
 # Cornell Electric Vehicles – Mechanical
