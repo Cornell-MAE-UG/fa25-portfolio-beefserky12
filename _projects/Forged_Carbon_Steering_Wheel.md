@@ -3,7 +3,7 @@ layout: project
 title: Forged Carbon Fibre Steering Wheel
 description: I designed, evaluated and manufactured a forged carbon steering wheel.
 permalink: /projects/Forged_Carbon_Steering_Wheel/
-
+image: /assets/images/pic 123.png
 ---
 
 # Cornell Electric Vehicles 
