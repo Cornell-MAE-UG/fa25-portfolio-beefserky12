@@ -19,9 +19,6 @@ According to 2025 Shell Eco Marathon rules for Urban Concept Vehicles, the steer
 
 ![Pic 11]({{ "/assets/images/cad render.png" | relative_url }}){: class="inline-image"}
 
-![Pic 12]({{ "/assets/images/female mould.png" | relative_url }}){: class="inline-image"}
-
-![Pic 13]({{ "/assets/images/male mould.png" | relative_url }}){: class="inline-image"}
 
 ## General Reflection:
 
@@ -30,6 +27,11 @@ The steering wheel in UC ‘25 was overall effective. **Forged carbon fiber** wa
 ## Manufacturing
 
 The wheel was manufactured through a carbon forging process. After the wheel’s design was finalized, the CAD model was converted to a negative, and a mould was created in Solidworks. The mould consisted of four parts, two for the female section and two for the male section. The female and male moulds were split down the middle to ease the demoulding process. The walls of the upper and lower sections were inclined to facilitate demoulding.
+
+![Pic 12]({{ "/assets/images/female mould.png" | relative_url }}){: class="inline-image"}
+
+![Pic 13]({{ "/assets/images/male mould.png" | relative_url }}){: class="inline-image"}
+
 
 The carbon fiber chips and epoxy resin were mixed and placed between the male and female moulds. The mould was compressed and cured at eight points around the mould to ensure equal pressure. They were tightened until no gaps were visible between any of the interfaces. In certain places, the PETG cracked under the stress of the clamps, due to the unfortunate low infill, however this was quickly fixed by spreading the force using wooden pallets in between the clamp faces and the surface of the mould.
 
