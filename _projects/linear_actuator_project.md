@@ -11,6 +11,9 @@ image: /assets/images/Image.jpeg
 This analysis determines the maximum weight and maximum height achievable by the custom-designed lifting frame, based on the sketch and the selected linear actuator.
 
 
+![Pic 67]({{ "/assets/images/Image.jpeg" | relative_url }}){: class="inline-image"}
+
+
 ---
 
 ### 1. Component Specifications and Geometry
