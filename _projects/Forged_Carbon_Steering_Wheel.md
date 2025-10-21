@@ -3,7 +3,7 @@ layout: project
 title: Forged Carbon Fibre Steering Wheel
 description: I designed, evaluated and manufactured a forged carbon steering wheel.
 permalink: /projects/Forged_Carbon_Steering_Wheel/
-image: /assets/images/pic 123).png
+image: /assets/images/pic 123.png
 ---
 
 # Cornell Electric Vehicles – Mechanical
@@ -44,37 +44,45 @@ After 24 hours, the resin had dried. The part was demoulded using a hammer and s
 
 ## Structural Validation: Finite Element Analysis (FEA)
 
-To validate the structural integrity of the forged carbon fiber steering wheel, a **Static Stress Analysis** was conducted in Autodesk Inventor. The simulation's primary goal was to ensure the design maintained a minimum Factor of Safety ($\text{FOS}$) of **2.0** under extreme turning torque.
+To validate the structural integrity of the forged carbon fiber steering wheel, a **Static Stress Analysis** was conducted in Autodesk Inventor. The simulation's primary goal was to ensure the design maintained a minimum Factor of Safety (FOS) of **2.0** under extreme turning torque.
 
 ### **Analysis Setup**
 
 | Parameter | Value | Details |
 | :--- | :--- | :--- |
-| **Material Model** | Forged Carbon Fiber (60/40) | Custom-defined as Isotropic with Ultimate Tensile Strength ($\sigma_{\text{ult}}$) of $\mathbf{27,850 \text{ psi}}$ |
+| **Material Model** | Forged Carbon Fiber (60/40) | Custom-defined as Isotropic with Ultimate Tensile Strength (sig_ult) of **27,850 psi** |
 | **Constraint** | Fixed | Applied to the inner faces of the **five mounting holes** at the hub, simulating a rigid bolt connection. |
-| **Loading** | $\mathbf{90 \text{ lbf}}$ (Total) | Applied as a force couple (two opposing $45 \text{ lbf}$ tangential loads) on the rim, simulating maximum driver steering effort. |
+| **Loading** | **90 lbf** (Total) | Applied as a force couple (two opposing 45 lbf tangential loads) on the rim, simulating maximum driver steering effort. |
 
 ### **FEA Results and Conclusion**
 
 The simulation confirmed that the design is exceptionally robust for the required load case.
 
-![Pic 15]({{ "/assets/images/pic 123).png" | relative_url }}){: class="inline-image"}
+![Pic 15]({{ "/assets/images/pic 123.png" | relative_url }}){: class="inline-image"}
 
 | Parameter | Result Value | Interpretation |
 | :--- | :--- | :--- |
-| **Minimum FOS ($\text{FOS}_{\min}$)** | $\mathbf{4.42}$ | The design is safe and over-engineered, exceeding the design target of $2.0$ by a large margin. |
+| **Minimum FOS (FOS_min)** | **4.42** | The design is safe and over-engineered, exceeding the design target of 2.0 by a large margin. |
 | **Critical Location** | Spoke-to-Hub Fillet | The highest stress concentration was correctly identified at this internal radius. |
-| **Calculated Breaking Force** | $\mathbf{398 \text{ lbf}}$ | The wheel is capable of withstanding over four times the simulated maximum human load before material failure ($\text{FOS} = 1.0$). |
+| **Calculated Breaking Force** | **398 lbf** | The wheel is capable of withstanding over four times the simulated maximum human load before material failure (FOS = 1.0). |
 
 The FEA results strongly validate the material and geometric design choices, demonstrating that the wheel provides a high level of structural safety and reliability.
 
 ## Assembly
 
-A steering hub was designed and 3D printed using ABS, used to interface the steering wheel with the steering column. It featured five mounting holes to match the steering wheel, as well as a dowel hole to secure it with the steering column. The hub was attached to the wheel using $\frac{1}{4}$”-20 bolts, and the assembled wheel was secured to the steering column using $\frac{1}{4}$” dowels.
+A steering hub was designed and 3D printed using ABS, used to interface the steering wheel with the steering column. It featured five mounting holes to match the steering wheel, as well as a dowel hole to secure it with the steering column. The hub was attached to the wheel using 1/4”-20 bolts, and the assembled wheel was secured to the steering column using 1/4” dowels.
 
-[Image 5: Steering Wheel and Hub Assembly]
+
 
 ## Project Reflection
 
 The forged carbon steering wheel was an improvement from the previous year’s. Significant time could have been saved in the finishing stage if proper infill is used for the moulds. For future forged carbon parts, especially those which require standby components, epoxy tooling board moulds should be considered (for ease of repeatability and precise machining).
-```eof
+
+
+
+
+
+
+
+
+
