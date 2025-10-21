@@ -6,13 +6,10 @@ permalink: /projects/Forged_Carbon_Steering_Wheel/
 image: /assets/images/pic 123.png
 ---
 
-# Cornell Electric Vehicles – Mechanical
+# Cornell Electric Vehicles 
 
-## Steering Wheel
 
-### Spring 2025 Technical Report
 
-*Serkan Yurday*
 
 ***
 
