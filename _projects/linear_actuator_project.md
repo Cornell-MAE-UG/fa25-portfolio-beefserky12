@@ -63,3 +63,9 @@ W\_min = (12,746 N * 0.1594 m) / 0.3582 m ≈ **5,669 N**
 #### Final Result Summary:
 * **Weight that can be lifted at H\_max:** **5,669 N**
 * **Mass that can be lifted at H\_max:** **578 kg** (5,669 N / 9.81 m/s^2)
+
+#### New Considerations: Accounting for Bending
+
+![Pic 68]({{ "/assets/images/1.png" | relative_url }}){: class="inline-image"}
+
+![Pic 69]({{ "/assets/images/2.png" | relative_url }}){: class="inline-image"}
