@@ -5,13 +5,13 @@ description: Given a 150cm x 50cm design space, I was tasked with using a linear
 permalink: /projects/linear_actuator_project/
 image: /assets/images/Image.jpeg
 order: 3
-
+---
 ##  Static Structural Analysis: Max Lift Frame Design
 
 This analysis determines the maximum weight and maximum height achievable by the custom-designed lifting frame, based on the sketch and the selected linear actuator.
 
 
-![Pic 67]({{ "/assets/images/Image.jpeg" | relative_url }}){: class="inline-image"}
+![Pic 61]({{ "/assets/images/Image.jpeg" | relative_url }}){: class="inline-image"}
 
 
 ---
