@@ -1,15 +1,18 @@
 ---
 layout: project
-title: Linear Actuator Project
+title: General Electric J85 Turbojet Thermodynamic Analysis
 description: Given a 150cm x 50cm design space, I was tasked with using a linear actuator to lift the maximum possible weight the highest possible height.
 permalink: /General_Electric_J85_Thermodynamic_Analysis/
-image: /assets/images/Image.jpeg
+image: /assets/images/Main_Image.jpg
 ---
+
 # General Electric J85 Turbojet: Brayton Cycle Analysis
 
 This project analyzes the thermodynamic cycle of the **General Electric J85**, a high-performance turbojet engine. The J85 is a single-spool, axial-flow engine used in the T-38 Talon and F-5 fighter aircraft. This analysis utilizes the Air-Standard Brayton Cycle to model the engine's performance at Sea Level Static (SLS) conditions.
 
+![Pic 77]({{ "/assets/images/F5_Tiger.jpg" | relative_url }}){: class="inline-image"}
 ---
+
 
 ## 1. System Overview and Components
 
@@ -22,7 +25,7 @@ The J85 operates by converting thermal energy from fuel combustion into kinetic 
 * **Nozzle:** Accelerates exhaust gas to generate thrust.
 
 
-
+![Pic 78]({{ "/assets/images/Diagram.jpg" | relative_url }}){: class="inline-image"}
 ---
 
 ## 2. Qualitative Cycle Description
