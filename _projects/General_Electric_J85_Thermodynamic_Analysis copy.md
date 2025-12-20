@@ -6,22 +6,15 @@ permalink: /General_Electric_J85_Thermodynamic_Analysis_copy/
 image: /assets/images/Main_Image.jpg
 ---
 
+# General Electric J85 Turbojet: Brayton Cycle Analysis
+
+This project analyzes the thermodynamic cycle of the **General Electric J85**, a high-performance turbojet engine. The J85 is a single-spool, axial-flow engine used in the T-38 Talon and F-5 fighter aircraft. This project transitions from an ideal Brayton cycle to a real-world engine model. We account for isentropic efficiencies, pressure drops in the combustor, and variable specific heats ($c_p$) to validate the performance of the General Electric J85-GE-21.
+
+
 ![Pic 77]({{ "/assets/images/F5_Tiger.jpg" | relative_url }}){: class="inline-image"}
 ---
 
 
-![Pic 78]({{ "/assets/images/Diagram.jpg" | relative_url }}){: class="inline-image"}
----
----
-layout: post
-title: "J85-GE-21: High-Fidelity Thermodynamic Reconstruction"
----
-
-# J85-GE-21: High-Fidelity Thermodynamic Reconstruction
-
-This project transitions from an ideal Brayton cycle to a real-world engine model. We account for isentropic efficiencies, pressure drops in the combustor, and variable specific heats ($c_p$) to validate the performance of the General Electric J85-GE-21.
-
----
 
 ## 1. Ambient Conditions and Compressor Analysis
 
@@ -45,6 +38,8 @@ $$T_{2a} = T_1 + \frac{T_{2s} - T_1}{\eta_c} = 288.15 + \frac{576.2 - 288.15}{0.
 $$w_c = c_p(T_{2a} - T_1) = 1.005(627.0 - 288.15) = 340.54 \text{ kJ/kg}$$
 
 ---
+
+![Pic 78]({{ "/assets/images/Diagram.jpg" | relative_url }}){: class="inline-image"}
 
 ## 2. Combustion Energy Balance
 
@@ -103,6 +98,9 @@ This confirms the dry thrust specification for the J85-GE-21 of approximately 3,
 
 ---
 
-## References
-[^1]: General Electric Aerospace. "J85 Engine Family." [GE Aerospace Official Site](https://www.geaerospace.com/propulsion/military/j85).
-[^2]: NASA Technical Reports Server. "Performance of J85-GE-21 Turbojet Engine." [NASA NTRS 19800012848](https://ntrs.nasa.gov/).
+## 5. Performance Change: High Altitude Effects
+
+At an altitude of 11,000m, ambient temperature drops to 216.7 K and pressure drops to 22.6 kPa.
+
+* **Efficiency:** Lower inlet temperatures ($T_1$) mean the compressor requires less work to reach the same pressure ratio, which can improve thermal efficiency.
+* **Thrust:** Because air density is much lower at altitude, the mass flow rate ($\dot{m}$) decreases. This results in a significant drop in total thrust despite high exit velocities.
