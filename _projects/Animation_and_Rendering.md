@@ -4,6 +4,7 @@ title: Kineon Product Renderings
 description: I produced numerous renderings and animations for Kineon's MOVE+ 3.0 Red Light Therapy device.
 permalink: /projects/Animation_and_Rendering/
 image: /assets/images/MovePlus_2b_NB (3).png
+order: 4
 ---
 
 ## Kineon MOVE+ 3.0 Product Launch
