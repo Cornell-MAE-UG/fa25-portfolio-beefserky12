@@ -7,7 +7,6 @@ image: /assets/images/Main_Image.jpg
 order: 1
 ---
 
-# General Electric J85 Turbojet: Brayton Cycle Analysis
 
 This project analyzes the thermodynamic cycle of the **General Electric J85**, a high-performance turbojet engine. The J85 is a single-spool, axial-flow engine used in the T-38 Talon and F-5 fighter aircraft. This project transitions from an ideal Brayton cycle to a real-world engine model. We account for isentropic efficiencies, pressure drops in the combustor, and variable specific heats ($c_p$) to validate the performance of the General Electric J85-GE-21.
 
