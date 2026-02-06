@@ -3,7 +3,7 @@ layout: project
 title: Carbon Fiber Layups
 description: 
 permalink: /projects/Carbon_Fiber_Layup/
-image: /assets/images/Image.jpeg
+image: /assets/images/unnamed (3)
 order: 3
 ---
 This page contains various images of carbon fiber layups I have completed as the Chassis lead of Cornell Electric Vehicles.
