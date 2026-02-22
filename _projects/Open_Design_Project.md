@@ -3,7 +3,7 @@ layout: project
 title: Anti-SLF
 description: 
 permalink: /projects/Open_Design_Project/
-image: /assets/images/download (1).jpg/
+image: /assets/images/download (1).jpg
 
 ---
 
