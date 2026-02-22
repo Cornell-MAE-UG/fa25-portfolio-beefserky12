@@ -1,106 +1,54 @@
 ---
 layout: project
-title: General Electric J85 Turbojet Thermodynamic Analysis
-description: Given a 150cm x 50cm design space, I was tasked with using a linear actuator to lift the maximum possible weight the highest possible height.
-permalink: /General_Electric_J85_Thermodynamic_Analysis/
-image: /assets/images/Main_Image.jpg
-order: 1
----
-
-
-This project analyzes the thermodynamic cycle of the **General Electric J85**, a high-performance turbojet engine. The J85 is a single-spool, axial-flow engine used in the T-38 Talon and F-5 fighter aircraft. This project transitions from an ideal Brayton cycle to a real-world engine model. We account for isentropic efficiencies, pressure drops in the combustor, and variable specific heats ($c_p$) to validate the performance of the General Electric J85-GE-21.
-
-
-![Pic 77]({{ "/assets/images/F5_Tiger.jpg" | relative_url }}){: class="inline-image"}
----
-
-
-
-## 1. Ambient Conditions and Compressor Analysis
-
-At Sea Level Static (SLS) conditions:
-* **$P_1 = 101.325$ kPa**
-* **$T_1 = 288.15$ K**
-* **Pressure Ratio ($r_p$) = 11.3**
-
-In a real compressor, internal friction and flow separation increase the temperature rise required to reach a specific pressure. We use an isentropic efficiency ($\eta_c$) of **0.85**.
-
-
-
-**Ideal Exit Temperature ($T_{2s}$):**
-$$T_{2s} = T_1(r_p)^{\frac{k-1}{k}} = 288.15(11.3)^{0.2857} = 576.2 \text{ K}$$
-
-**Actual Exit Temperature ($T_{2a}$):**
-The energy wasted as heat is captured by the efficiency term:
-$$T_{2a} = T_1 + \frac{T_{2s} - T_1}{\eta_c} = 288.15 + \frac{576.2 - 288.15}{0.85} = 627.0 \text{ K}$$
-
-**Specific Compressor Work ($w_c$):**
-$$w_c = c_p(T_{2a} - T_1) = 1.005(627.0 - 288.15) = 340.54 \text{ kJ/kg}$$
+title: Anti-SLF
+description: 
+permalink: /projects/Open_Design_Project/
+image: /assets/images/download (1).jpg/
 
 ---
 
-![Pic 78]({{ "/assets/images/Diagram.jpg" | relative_url }}){: class="inline-image"}
 
-## 2. Combustion Energy Balance
+# Project X-termination of SLF
 
-We model the combustor as a constant-pressure heat addition, though we account for a **3% stagnation pressure loss** ($\Delta P_{comb}$) due to fluid friction and burner geometry.
+**Team:** SLF Crushers
+**Client(s):** Cornell CALS Extension / E\&J Gallo Winery / National Grape  
 
-**Exit Pressure ($P_3$):**
-$$P_3 = P_2(0.97) = (101.325 \cdot 11.3) \cdot 0.97 = 1110.6 \text{ kPa}$$
+### Problem statement 
+Vineyard growers face severe spotted lanternfly (SLF) infestations during the final 3 months before harvest, when grape sugar content is highest and fruit is most vulnerable. SLF cluster on vines and fruit, feeding on sap and producing honeydew that promotes mold and reduces yield. In heavily infested regions, losses can reach 30–50%, often requiring repeated pesticide applications that increase labor and chemical costs. However, current removal methods—such as shaking, suction, brushing, or high-force airflow—risk damaging grapes or interfering with harvesting machinery, leaving no effective way to remove SLF during harvest without harming the crop.
 
-**Fuel-to-Air Ratio ($f$):**
-Using a Turbine Inlet Temperature ($T_3$) of **1250 K** and the Lower Heating Value (LHV) of Jet-A fuel ($43,100 \text{ kJ/kg}$):
-$$f = \frac{c_{pg} T_3 - c_{pa} T_{2a}}{LHV - c_{pg} T_3}$$
-Using $c_{pg} = 1.15 \text{ kJ/kg}\cdot\text{K}$ for the high-temperature combustion products:
-$$f = \frac{(1.15 \cdot 1250) - (1.005 \cdot 627.0)}{43100 - (1.15 \cdot 1250)} = 0.0193$$
+### Impact
+We chose to address the problem of removing spotted lanternflies from grapevines without harming the plants. Because these insects feed on sap, they weaken vines and reduce fruit yield. However, any removal method that damages leaves, stems, or fruit would also lower production. Therefore, our prototype focuses on eliminating spotted lanternflies while preserving grapevine health to support optimal grape production.
 
-For every 1 kg of air, the engine consumes **0.0193 kg of fuel**.
+### Proposed direction
+The long-term vision for this product is a cylindrical unit approximately the height of vineyard trellises and roughly two feet in diameter, with scalable dimensions depending on the size and needs of the operation. The system would operate autonomously, continuously rotating to guide and trap insects drawn toward the device. By the end of the semester, we would like to produce a mini replica of our product. We can 3D print external parts, utilize servo motors, lace the interior with the attractive solution, and program the system to operate at the speed intended. This prototype will allow us to validate the mechanical design, examine the efficiency of trapping, and verify the operational feasibility.
 
----
+#### Concept:
+**What it is:** Our device will use scents, sound frequencies, and sugary sap to lure spotted lanternflies away from the vines and into the trap.
+**How it would be used:** 1. Using attractants, spotted lanternflies will either enter the trap or trigger a motion sensor that activates a low pressure vacuum to pull them inside. 2. A rotating blade guides them toward the center of the trap. 3. Continued rotation forces them downward through the center into the execution chamber. 4. A second rotating blade in the chamber kills the spotted lanternflies.
+**Why it’s better than the status quo:** 1. It is a promising idea to remove them from the grape vines 2. It would be very easy to install and very low maintenance.
+**End-of-semester proof-of-concept:** refer to proposed direction. 
 
-## 3. Turbine-Compressor Matching
+### Key risks / unknowns
+- <Risk 1> — Competitive Attraction Failure. The trap may fail if the natural sugary phloem of the grapevines is more appealing than the artificial lure we create during the peak 3-week ripening period. How to test: Place SLF in a controlled environment with two targets: high sugar grapevine and our lure. Measure the percentage of SLF that choose the lure over the plant over a 24 hour period to determine capture efficiency ratio.
 
-The turbine extracts work from the total mass flow ($\dot{m}_a + \dot{m}_f$). This work must equal the compressor work, adjusted for mechanical efficiency ($\eta_m = 0.99$).
+- <Risk 2> — SLF Evasion. SLF are known to fly or jump when startled. The rotating mechanism involved in our trap might inadvertently trigger their flight response before they are successfully guided into the containment chamber. We can test this by using video analysis of the rotating mechanism, introducing SLF to the entry point and seeing what rotational speeds are optimal for reducing SLF evasion.
 
-**Specific Turbine Work ($w_t$):**
-$$w_t = \frac{w_c}{(1+f)\eta_m} = \frac{340.54}{(1.0193)(0.99)} = 337.5 \text{ kJ/kg}$$
+## Questions for the client
+Focus on questions they can answer from lived experience.
+1. **<What is the specific spacing of the vineyard? Are there places where the trap can be placed that will not interfere with the path of the harvester?>**  
+   *Decision affected:* This will determine whether we can disperse our traps throughout the vineyard or only put them around the edges.
+2. **<Would you be comfortable incorporating manual labour into the operation?>**  
+   *Decision affected:* This will determine whether the traps can be moved somewhere else during harvesting.
+3. **<Are there any specific “organic” or other food-grade certifications your vineyard holds that would prohibit certain artificial scents or lures?>**  
+   *Decision affected:* This will determine which lures we can use.
 
-**Actual Turbine Exit Temperature ($T_{4a}$):**
-$$T_{4a} = T_3 - \frac{w_t}{c_{pg}} = 1250 - \frac{337.5}{1.15} = 956.5 \text{ K}$$
+\newpage
 
-**Exit Pressure ($P_4$):**
-To find the pressure at the turbine exit, we calculate the isentropic exit temperature ($T_{4s}$) using turbine efficiency ($\eta_t = 0.90$):
-$$T_{4s} = T_3 - \frac{T_3 - T_{4a}}{\eta_t} = 1250 - \frac{1250 - 956.5}{0.90} = 912.8 \text{ K}$$
-Now find $P_4$:
-$$P_4 = P_3 \left( \frac{T_{4s}}{T_3} \right)^{\frac{k}{k-1}} = 1110.6 \left( \frac{912.8}{1250} \right)^{3.5} = 371.4 \text{ kPa}$$
+# References and/or one figure
 
----
+## References
 
-## 4. Nozzle Expansion and Thrust
-
-The gas expands from $P_4$ to $P_{ambient}$ ($101.325$ kPa).
-
-**Exit Temperature ($T_5$):**
-$$T_5 = T_{4a} \left( \frac{P_1}{P_4} \right)^{\frac{k-1}{k}} = 956.5 \left( \frac{101.325}{371.4} \right)^{0.248} = 688.1 \text{ K}$$
-*(Note: $k$ for exhaust gas is $\approx 1.33$)*
-
-**Exit Velocity ($V_e$):**
-Assuming a nozzle efficiency of **0.97**:
-$$V_e = \sqrt{2 \cdot c_{pg} \cdot \eta_n \cdot (T_{4a} - T_5)}$$
-$$V_e = \sqrt{2 \cdot 1150 \cdot 0.97 \cdot (956.5 - 688.1)} = 774 \text{ m/s}$$
-
-**Thrust Calculation:**
-For the J85-GE-21 air mass flow rate of **20 kg/s**:
-$$F = (\dot{m}_a + \dot{m}_f)V_e = (20 + 0.386) \cdot 774 = 15,778 \text{ N}$$
-**$F \approx 3,547$ lbf**
-
-This confirms the dry thrust specification for the J85-GE-21 of approximately 3,500 lbf.
-
----
-
-## 5. Performance Change: High Altitude Effects
-
-At an altitude of 11,000m, ambient temperature drops to 216.7 K and pressure drops to 22.6 kPa.
-
-* **Efficiency:** Lower inlet temperatures ($T_1$) mean the compressor requires less work to reach the same pressure ratio, which can improve thermal efficiency.
-* **Thrust:** Because air density is much lower at altitude, the mass flow rate ($\dot{m}$) decreases. This results in a significant drop in total thrust despite high exit velocities.
+- <https://www.psu.edu/news/research/story/lanternflys-attraction-vertical-silhouettes-could-help-monitor-trap-it>
+- <https://cals.cornell.edu/integrated-pest-management/outreach-education/whats-bugging-you/spotted-lanternfly/spotted-lanternfly-management#:~:text=Early%20instars%20are%20more%20easily,you%20or%20the%20accidental%20capture>
+- <https://ucnj.org/slf/>
+- <https://extension.psu.edu/how-to-build-a-spotted-lanternfly-circle-trap>
