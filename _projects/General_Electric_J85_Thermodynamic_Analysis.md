@@ -2,9 +2,8 @@
 layout: project
 title: General Electric J85 Turbojet Thermodynamic Analysis
 description: Given a 150cm x 50cm design space, I was tasked with using a linear actuator to lift the maximum possible weight the highest possible height.
-permalink: /General_Electric_J85_Thermodynamic_Analysis/
+permalink: /projects/General_Electric_J85_Thermodynamic_Analysis/
 image: /assets/images/Main_Image.jpg
-order: 1
 ---
 
 
