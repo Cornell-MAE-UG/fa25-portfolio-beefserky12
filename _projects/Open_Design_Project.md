@@ -6,49 +6,44 @@ permalink: /projects/Open_Design_Project/
 image: /assets/images/download (1).jpg
 
 ---
+## Project Milestones
+* [Client Pitch](#client-pitch)
+* [Functional Prototype](#functional-prototype)
 
+---
 
-# Project X-termination of SLF
+<h2 id="client-pitch">Milestone 1: Client Pitch</h2>
 
-**Team:** SLF Crushers
-**Client(s):** Cornell CALS Extension / E\&J Gallo Winery / National Grape  
+---
 
-### Problem statement 
-Vineyard growers face severe spotted lanternfly (SLF) infestations during the final 3 months before harvest, when grape sugar content is highest and fruit is most vulnerable. SLF cluster on vines and fruit, feeding on sap and producing honeydew that promotes mold and reduces yield. In heavily infested regions, losses can reach 30–50%, often requiring repeated pesticide applications that increase labor and chemical costs. However, current removal methods—such as shaking, suction, brushing, or high-force airflow—risk damaging grapes or interfering with harvesting machinery, leaving no effective way to remove SLF during harvest without harming the crop.
+<h2 id="functional-prototype">Milestone 2: Functional Prototype</h2>
 
-### Impact
-We chose to address the problem of removing spotted lanternflies from grapevines without harming the plants. Because these insects feed on sap, they weaken vines and reduce fruit yield. However, any removal method that damages leaves, stems, or fruit would also lower production. Therefore, our prototype focuses on eliminating spotted lanternflies while preserving grapevine health to support optimal grape production.
+### Purpose of the Prototype
+[cite_start]The primary goal of this prototype was to validate the mechanical assembly of the "SLF Crusher"[cite: 26, 30]. [cite_start]We specifically aimed to verify if the rotating **reaper wall** and **peg plate** could successfully guide insects into the collection chamber[cite: 18, 22].
 
-### Proposed direction
-The long-term vision for this product is a cylindrical unit approximately the height of vineyard trellises and roughly two feet in diameter, with scalable dimensions depending on the size and needs of the operation. The system would operate autonomously, continuously rotating to guide and trap insects drawn toward the device. By the end of the semester, we would like to produce a mini replica of our product. We can 3D print external parts, utilize servo motors, lace the interior with the attractive solution, and program the system to operate at the speed intended. This prototype will allow us to validate the mechanical design, examine the efficiency of trapping, and verify the operational feasibility.
+### Prototype Assembly
+[cite_start]The assembly consists of a D-profile shaft driven by a motor, which rotates a reaper wall with 6 pegs against a stationary peg plate[cite: 7, 19]. 
 
-#### Concept:
-**What it is:** Our device will use scents, sound frequencies, and sugary sap to lure spotted lanternflies away from the vines and into the trap.
-**How it would be used:** 1. Using attractants, spotted lanternflies will either enter the trap or trigger a motion sensor that activates a low pressure vacuum to pull them inside. 2. A rotating blade guides them toward the center of the trap. 3. Continued rotation forces them downward through the center into the execution chamber. 4. A second rotating blade in the chamber kills the spotted lanternflies.
-**Why it’s better than the status quo:** 1. It is a promising idea to remove them from the grape vines 2. It would be very easy to install and very low maintenance.
-**End-of-semester proof-of-concept:** refer to proposed direction. 
+| Component | Material/Source | Purpose |
+| :--- | :--- | :--- |
+| **Reaper Wall** | 3D Printed PLA | [cite_start]Rotating paddle that guides flies [cite: 7, 12] |
+| **Peg Plate** | 3D Printed PLA | [cite_start]Interlocking pins that converge flies [cite: 7, 13] |
+| **Death Chamber** | 3D Printed PLA | [cite_start]Collection container at the base [cite: 7, 15] |
 
-### Key risks / unknowns
-- <Risk 1> — Competitive Attraction Failure. The trap may fail if the natural sugary phloem of the grapevines is more appealing than the artificial lure we create during the peak 3-week ripening period. How to test: Place SLF in a controlled environment with two targets: high sugar grapevine and our lure. Measure the percentage of SLF that choose the lure over the plant over a 24 hour period to determine capture efficiency ratio.
+### Testing Procedures & Results
+[cite_start]We used crumbled paper balls to simulate the behavior of Spotted Lanternflies[cite: 27].
 
-- <Risk 2> — SLF Evasion. SLF are known to fly or jump when startled. The rotating mechanism involved in our trap might inadvertently trigger their flight response before they are successfully guided into the containment chamber. We can test this by using video analysis of the rotating mechanism, introducing SLF to the entry point and seeing what rotational speeds are optimal for reducing SLF evasion.
+* [cite_start]**Chamber Drop Test:** Verified if paper balls reliably fall into the intended chamber[cite: 27].
+    * [cite_start]**Outcome:** 100% Success ($5/5$ trials)[cite: 27].
+* [cite_start]**Peg Movement Test:** Tested if the interlocking pegs guide or jam the "flies"[cite: 27].
+    * [cite_start]**Outcome:** The paper balls were crushed by the pegs rather than guided to the center[cite: 27].
+* [cite_start]**Manual Spin Test:** Checked for mechanical friction and system stability[cite: 27].
+    * [cite_start]**Outcome:** The system faced significant resistance when the reaper wall passed the pegs, causing the entire trap to rotate[cite: 27].
 
-## Questions for the client
-Focus on questions they can answer from lived experience.
-1. **<What is the specific spacing of the vineyard? Are there places where the trap can be placed that will not interfere with the path of the harvester?>**  
-   *Decision affected:* This will determine whether we can disperse our traps throughout the vineyard or only put them around the edges.
-2. **<Would you be comfortable incorporating manual labour into the operation?>**  
-   *Decision affected:* This will determine whether the traps can be moved somewhere else during harvesting.
-3. **<Are there any specific “organic” or other food-grade certifications your vineyard holds that would prohibit certain artificial scents or lures?>**  
-   *Decision affected:* This will determine which lures we can use.
+### Outcome and Future Iterations
+[cite_start]Based on these results, the mechanical design requires the following modifications for the final prototype[cite: 27]:
+1.  [cite_start]**Greater Curvature:** Redesigning the reaper wall path to guide rather than crush insects[cite: 27].
+2.  [cite_start]**Increased Tolerances:** Providing more space between interlocking pegs to reduce friction[cite: 27].
+3.  [cite_start]**Added Stability:** Implementing weights at the bottom of the container to prevent it from moving during operation[cite: 27].
 
-\newpage
-
-# References and/or one figure
-
-## References
-
-- <https://www.psu.edu/news/research/story/lanternflys-attraction-vertical-silhouettes-could-help-monitor-trap-it>
-- <https://cals.cornell.edu/integrated-pest-management/outreach-education/whats-bugging-you/spotted-lanternfly/spotted-lanternfly-management#:~:text=Early%20instars%20are%20more%20easily,you%20or%20the%20accidental%20capture>
-- <https://ucnj.org/slf/>
-- <https://extension.psu.edu/how-to-build-a-spotted-lanternfly-circle-trap>
+![Functional Prototype Assembly](../assets/pics/prototype_image.jpg)
