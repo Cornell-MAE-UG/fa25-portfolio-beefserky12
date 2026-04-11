@@ -69,4 +69,4 @@ To improve the design for the final submission, we will implement the following:
 3. **Stability:** Adding weights to the bottom so the container remains stationary during rotation.
 4. **Tolerances:** Adding more clearance between interlocking pegs to reduce mechanical resistance.
 
-![Functional Prototype](../assets/pics/prototype_image.jpg)
+![Functional Prototype](/assets/images/Screenshot 2026-04-10 221237.png)
