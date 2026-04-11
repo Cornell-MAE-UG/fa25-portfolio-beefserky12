@@ -1,7 +1,6 @@
 ---
 layout: project
 title: Anti-SLF
-description: 
 permalink: /projects/Open_Design_Project/
 image: /assets/images/Screenshot 2026-04-10 221237.png
 
