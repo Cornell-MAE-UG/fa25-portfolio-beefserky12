@@ -1,15 +1,9 @@
 ---
 layout: project
 title: Anti-SLF
+description: This page describes my work towards creating a solution to the issue that Spotted Lanternflies pose on New York State vineyards.
 permalink: /projects/Open_Design_Project/
 image: /assets/images/slf.png
-
----
-
-
----
-layout: project
-title: "SLF Crusher: Open Design Project"
 ---
 
 ## Project Milestones
