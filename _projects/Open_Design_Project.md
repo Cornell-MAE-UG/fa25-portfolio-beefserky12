@@ -35,7 +35,8 @@ Because SLF feed on sap, they weaken vines and reduce fruit yield. Our goal is t
 
 <h2 id="functional-prototype">Milestone 2: Functional Prototype</h2>
 
-![Functional Prototype](/assets/images/slf.png)
+
+![Pic 777]({{ "/assets/images/slf.png" | relative_url }}){: class="inline-image"}
 
 ### Purpose of the Prototype
 This prototype validates the mechanical assembly of the "SLF Crusher". We specifically tested the ability of the rotating reaper wall and peg plate to guide pests into the collection chamber.
