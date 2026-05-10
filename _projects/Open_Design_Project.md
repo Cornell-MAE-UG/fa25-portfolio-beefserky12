@@ -2,9 +2,11 @@
 layout: project
 title: Anti-SLF
 permalink: /projects/Open_Design_Project/
-image: /assets/images/Screenshot 2026-04-10 221237.png
+image: /assets/images/slf.png
 
 ---
+
+
 ---
 layout: project
 title: "SLF Crusher: Open Design Project"
@@ -37,6 +39,8 @@ Because SLF feed on sap, they weaken vines and reduce fruit yield. Our goal is t
 ---
 
 <h2 id="functional-prototype">Milestone 2: Functional Prototype</h2>
+
+![Functional Prototype]({{ "slf.png" | relative_url }}){: class="inline-image"}
 
 ### Purpose of the Prototype
 This prototype validates the mechanical assembly of the "SLF Crusher". We specifically tested the ability of the rotating reaper wall and peg plate to guide pests into the collection chamber.
@@ -73,19 +77,20 @@ To improve the design for the final submission, we will implement the following:
 <h2 id="client-report">Milestone 3: Client Report</h2>
 
 ### Final Solution & Prototype
-The "SLF Crusher" is a mechanical interceptor designed to be mounted on vineyard trellises. It utilizes a rotating internal geometry to physically capture and terminate Spotted Lanternflies without the use of high-force air or chemicals that could damage the grapes[cite: 88, 111]. 
+The "SLF Crusher" is a mechanical interceptor designed to be mounted on vineyard trellises. It utilizes a rotating internal geometry to physically capture and terminate Spotted Lanternflies without the use of high-force air or chemicals that could damage the grapes. 
 
-The final design features a refined **Reaper Wall** and **Peg Plate** assembly. As the motor turns the central shaft, the reaper wall sweeps insects across the stationary peg plate. The geometry of these pegs forces the SLF toward a central drop-hole, where they fall into a removable collection chamber[cite: 88].
+The final design features a refined **Reaper Wall** and **Peg Plate** assembly. As the motor turns the central shaft, the reaper wall sweeps insects across the stationary peg plate. The geometry of these pegs forces the SLF toward a central drop-hole, where they fall into a removable collection chamber.
 
 ### Results & Performance
-Our testing focused on three key Success Criteria to determine the feasibility of the design[cite: 66, 92]:
+Our testing focused on three key Success Criteria to determine the feasibility of the design:
 
-* **Guiding Efficiency:** Following the redesign of the reaper wall curvature, the system successfully guided 90% of simulated pests to the center without jamming[cite: 93].
-* **Mechanical Reliability:** By increasing tolerances between interlocking components, we reduced rotational friction by 40%, allowing for low-power motor operation[cite: 93].
-* **Collection Success:** The enlarged drop-hole prevented "clogging" during high-volume simulations, ensuring the device remains functional during peak SLF activity[cite: 93].
+* **Guiding Efficiency:** Following the redesign of the reaper wall curvature, the system successfully guided 90% of simulated pests to the center without jamming.
+* **Mechanical Reliability:** By increasing tolerances between interlocking components, we reduced rotational friction by 40%, allowing for low-power motor operation.
+* **Collection Success:** The enlarged drop-hole prevented "clogging" during high-volume simulations, ensuring the device remains functional during peak SLF activity.
 
 ### Conclusion & Recommendation
-Based on the testing outcomes and cost-effectiveness of the 3D-printed components, we recommend **proceeding to field-testing**[cite: 89, 90]. 
+Based on the testing outcomes and cost-effectiveness of the 3D-printed components, we recommend **proceeding to field-testing**. 
 
-The "SLF Crusher" successfully addresses the sub-problem of pest removal without crop damage. Future iterations should focus on weatherproofing the motor housing and integrating the scent-based lure system discussed in the initial pitch[cite: 91, 111].
-![Functional Prototype](/assets/images/Screenshot 2026-04-10 221237.png)
+The "SLF Crusher" successfully addresses the sub-problem of pest removal without crop damage. Future iterations should focus on weatherproofing the motor housing and integrating the scent-based lure system discussed in the initial pitch.
+
+
