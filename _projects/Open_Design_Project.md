@@ -6,6 +6,9 @@ permalink: /projects/Open_Design_Project/
 image: /assets/images/slf.png
 ---
 
+## Project Context
+As part of the MAE 2250: Introduction to Mechanical Design course at Cornell University, our team participated in a semester-long Open Design Project focused on managing the impact of the Spotted Lanternfly (SLF) in New York State vineyards. These invasive pests threaten grapevine health and fruit yield by feeding on plant sap.  Our project, the Anti-SLF Crusher, focuses on the sub-problem of removing these insects during the harvest season without damaging the delicate crops or interfering with agricultural machinery. Over the course of the semester, we progressed from an initial conceptual pitch to a fully functional, motor-driven mechanical interceptor designed for low-maintenance vineyard installation. 
+
 ## Project Milestones
 * [Client Pitch](#client-pitch)
 * [Functional Prototype](#functional-prototype)
