@@ -10,6 +10,7 @@ image: /assets/images/slf.png
 * [Client Pitch](#client-pitch)
 * [Functional Prototype](#functional-prototype)
 * [Client Report](#client-report)
+
 ---
 
 <h2 id="client-pitch">Milestone 1: Client Pitch</h2>
@@ -34,7 +35,7 @@ Because SLF feed on sap, they weaken vines and reduce fruit yield. Our goal is t
 
 <h2 id="functional-prototype">Milestone 2: Functional Prototype</h2>
 
-![Functional Prototype]({{ "slf.png" | relative_url }}){: class="inline-image"}
+![Functional Prototype](/assets/images/slf.png)
 
 ### Purpose of the Prototype
 This prototype validates the mechanical assembly of the "SLF Crusher". We specifically tested the ability of the rotating reaper wall and peg plate to guide pests into the collection chamber.
