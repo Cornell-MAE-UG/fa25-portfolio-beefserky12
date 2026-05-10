@@ -78,11 +78,11 @@ To improve the design for the final submission, we will implement the following:
 ### Final Solution & Prototype
 The "SLF Crusher" is a mechanical interceptor designed to be mounted on vineyard trellises. It utilizes a rotating internal geometry to physically capture and terminate Spotted Lanternflies without the use of high-force air or chemicals that could damage the grapes. 
 
-![Pic 778]({{ "/assets/images/final_prototype" | relative_url }}){: class="inline-image"}
+![Pic 778]({{ "/assets/images/final_prototype.png" | relative_url }}){: class="inline-image"}
 
 The final design features a refined **Reaper Wall** and **Peg Plate** assembly. As the motor turns the central shaft, the reaper wall sweeps insects across the stationary peg plate. The geometry of these pegs forces the SLF toward a central drop-hole, where they fall into a removable collection chamber.
 
-![Pic 779]({{ "/assets/images/exploded" | relative_url }}){: class="inline-image"}
+![Pic 779]({{ "/assets/images/exploded.png" | relative_url }}){: class="inline-image"}
 
 ### Results & Performance
 Our testing focused on three key Success Criteria to determine the feasibility of the design:
