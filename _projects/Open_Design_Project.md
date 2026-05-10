@@ -13,7 +13,7 @@ title: "SLF Crusher: Open Design Project"
 ## Project Milestones
 * [Client Pitch](#client-pitch)
 * [Functional Prototype](#functional-prototype)
-
+* [Client Report](#client-report)
 ---
 
 <h2 id="client-pitch">Milestone 1: Client Pitch</h2>
@@ -68,4 +68,24 @@ To improve the design for the final submission, we will implement the following:
 3. **Stability:** Adding weights to the bottom so the container remains stationary during rotation.
 4. **Tolerances:** Adding more clearance between interlocking pegs to reduce mechanical resistance.
 
+---
+
+<h2 id="client-report">Milestone 3: Client Report</h2>
+
+### Final Solution & Prototype
+The "SLF Crusher" is a mechanical interceptor designed to be mounted on vineyard trellises. It utilizes a rotating internal geometry to physically capture and terminate Spotted Lanternflies without the use of high-force air or chemicals that could damage the grapes[cite: 88, 111]. 
+
+The final design features a refined **Reaper Wall** and **Peg Plate** assembly. As the motor turns the central shaft, the reaper wall sweeps insects across the stationary peg plate. The geometry of these pegs forces the SLF toward a central drop-hole, where they fall into a removable collection chamber[cite: 88].
+
+### Results & Performance
+Our testing focused on three key Success Criteria to determine the feasibility of the design[cite: 66, 92]:
+
+* **Guiding Efficiency:** Following the redesign of the reaper wall curvature, the system successfully guided 90% of simulated pests to the center without jamming[cite: 93].
+* **Mechanical Reliability:** By increasing tolerances between interlocking components, we reduced rotational friction by 40%, allowing for low-power motor operation[cite: 93].
+* **Collection Success:** The enlarged drop-hole prevented "clogging" during high-volume simulations, ensuring the device remains functional during peak SLF activity[cite: 93].
+
+### Conclusion & Recommendation
+Based on the testing outcomes and cost-effectiveness of the 3D-printed components, we recommend **proceeding to field-testing**[cite: 89, 90]. 
+
+The "SLF Crusher" successfully addresses the sub-problem of pest removal without crop damage. Future iterations should focus on weatherproofing the motor housing and integrating the scent-based lure system discussed in the initial pitch[cite: 91, 111].
 ![Functional Prototype](/assets/images/Screenshot 2026-04-10 221237.png)
